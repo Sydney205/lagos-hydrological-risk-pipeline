@@ -1,0 +1,77 @@
+# ==========================================
+# 1. Project Datasets & Large Data Files
+# ==========================================
+# Keep directory structure intact with .gitkeep, but ignore heavy CSVs
+data/raw/*.csv
+data/processed/*.csv
+*.csv
+*.parquet
+*.feather
+*.sqlite
+*.db
+
+# ==========================================
+# 2. Python & Virtual Environments
+# ==========================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables & keys
+.env
+*.env
+
+# ==========================================
+# 3. Jupyter Notebooks & IDE Caches
+# ==========================================
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Visual Studio Code / PyCharm / Editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ==========================================
+# 4. Machine Learning & Model Exports
+# ==========================================
+# Saved model checkpoints, weights, and serialized pickles
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.onnx
+*.pt
+*.pth
+
+# ==========================================
+# 5. OS Generated Files
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSSharedFileList
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
